@@ -16,7 +16,7 @@ public interface UserService {
      * @param user
      * @return
      */
-    User token(User user);
+    User getToken(User user);
     
     /**
      * 验证token
